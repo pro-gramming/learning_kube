@@ -5,7 +5,7 @@ services:
     build:
       context: ./php
       dockerfile: Dockerfile
-    container_name: php73
+    container_name: php74
     depends_on:
       - db
     volumes:
