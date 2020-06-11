@@ -18,9 +18,11 @@ services:
     command: --default-authentication-plugin=mysql_native_password
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: 1234
       MYSQL_DATABASE: test_db
-      MYSQL_USER: dinesh
+      MYSQL_USER: root
       MYSQL_PASSWORD: 1234
+    volumes:
+      - ./Ex_Files:/Ex_files
     ports:
       - 6033:3306

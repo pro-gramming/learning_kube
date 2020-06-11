@@ -1,7 +1,7 @@
 <?php 
 
 $host = 'db';
-$user = 'dinesh';
+$user = 'root';
 $password = 1234;
 $db = 'test_db';
 
